@@ -5,7 +5,7 @@ body {
 background-color: #ffffff;
 }
 header {
-padding-top: 20px;
+padding-top: 10px;
 }
 header img {
 padding: 1em;
@@ -69,8 +69,8 @@ nav ul li div {
 background-color: white;
 padding: 0 0.7em;
 white-space: nowrap;
-width: 350px;
-height:300px;
+width: 300px;
+height:250px;
 }
 
 nav ul li div ul{
