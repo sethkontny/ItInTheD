@@ -1,0 +1,13 @@
+<header>
+
+<nav>
+<ul>
+<li><%= image_tag("logo.png", :alt => "ItInTheD", :class => "round") %></li>
+ <li><%= text_field_tag :search, params[:search], :id => 'search_field' %>
+     <%= submit_tag "Search"%> 
+     </li>
+<li><%= link_to "Home", "#" %></li>
+<li><%= link_to "Sign in", '#' %></li>
+</ul>
+</nav>
+</header>

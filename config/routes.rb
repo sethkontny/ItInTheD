@@ -1,4 +1,16 @@
 ItInTheD::Application.routes.draw do
+  get "page/home"
+
+  get "page/event"
+
+  get "page/community"
+
+  get "page/story"
+
+  get "page/opportunity"
+
+  resources :locations
+ root :to => 'locations#index'
   devise_for :users
 
   resources :users
